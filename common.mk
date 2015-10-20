@@ -113,7 +113,8 @@ PRODUCT_PACKAGES += \
     qcmediaplayer
 
 PRODUCT_BOOT_JARS += \
-    qcmediaplayer
+    qcmediaplayer \
+    qcom.fmradio
 
 # FM
 PRODUCT_PACKAGES += \
@@ -166,6 +167,7 @@ PRODUCT_PACKAGES += \
 # ANT+
 PRODUCT_PACKAGES += \
    AntHalService \
+   antradio_app \
    com.dsi.ant.antradio_library \
    libantradio
 
